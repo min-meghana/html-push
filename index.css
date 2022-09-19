@@ -9,8 +9,8 @@
 		}
 		#objmenu{
 			font-size: 15px; 
-			
 		}
+			
 		.menubar{ 
 			padding-top: 30px;
 			padding-bottom: 10px;
@@ -24,7 +24,7 @@
 			text-align: center;
 			margin-top:7% ;
 			color: floralwhite;
-			background-color: #4666ff;
+			background-color: darkgoldenrod;
 			margin-left: 250px;
 			margin-right: 250px;
 			padding-top: 70px;
@@ -35,10 +35,9 @@
 			padding-left: 1.5%;
 			border-color: white;
 			padding-right: 1.5%;
-			
 			text-transform: capitalize;
 			font-family: sans-serif;
-			background-color: #4666ff;
+			background-color: peachpuff;
 
 		}
 
@@ -52,6 +51,18 @@
 					box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 					background-color: navajowhite;
 
+		}
+		.sub1{
+			padding: 25px;
+			background-color: pink;
+		}
+		.sub2{
+			padding: 25px;
+			background-color: lightblue;
+		}
+		.sub3{
+			padding: 25px;
+			background-color: darkkhaki;
 		}
 		.whole{
 			padding-top: 5%;
@@ -71,7 +82,7 @@
 		.btmbox{
 			text-align: center;
 			margin-top:7% ;
-			color: floralwhite;
+			color: #002546;
 			background-color: #4666ff;
 			margin-left: 250px;
 			margin-right: 250px;
@@ -87,16 +98,14 @@
 			padding-right: 1.5%;
 			text-transform: capitalize;
 			font-family: sans-serif;
-			background-color: #4666ff;
+			background-color: peachpuff;
 		}		
 		@media(max-width: 992px){
-			*{marign: 0%}
+			
 			.menubar{
 				display: none;
 			}
-			.headboxdup1{
-				display: none;
-			}
+			
 			.menubar-media{
 				position: absolute;
 				top: 0%;
@@ -113,6 +122,7 @@
 				margin-bottom: 3%;
 
 			}
+
 		}
 		@media(min-width: 1200px){
 			.menubar-media{
@@ -121,25 +131,33 @@
 			.headboxdup1{
 				display: none;
 			}
+			.btmbox2{
+				display: none;
+			}
 
 		}
 		@media(max-width: 1200px) and (min-width:993px ){
 			.menubar-media{
 				display: none;
 			}
-			.headboxdup1{display: none;}
+			.headboxdup1{
+				display: none;
+			}
+			#home{
+				margin-left: 7%;
+			}
 			
 			.menubar a{
-				font-size: 8px;
+				font-size: 9px;
 
 			}
 			.menubar i{
-				
-				font-size: 8px;
+				margin-left: 1%;
+				font-size: 9px;
 
 			}
 			#objmenu{
-				font-size: 11px;
+				font-size: 12px;
 			}
 			.headbox{
 				padding-left: 4px;
@@ -147,17 +165,42 @@
 				margin-right:13%;
 				margin-left: 13%;
 			}
-		}
+			.btmbox2{
+				display: none;
+			}
+			.btmbox{
+			text-align: center;
+			margin-top:7% ;
+			color: floralwhite;
+			background-color: #4666ff;
+			margin-left: 150px;
+			margin-right: 150px;
+			padding-top: 40px;
+			padding-bottom: 44px;
+			padding-left: 25px;
+			padding-right: 25px;
+		
+
+			}
+	}
 		@media(max-width: 768px) and (min-width: 576px){
 			
 			.headbox{
 				display: none;
 			}
 			.headboxdup1{
-				padding: 10%;	
+				text-align: center;
+				margin-top:7% ;
+				color: #002546;
+				background-color: peachpuff;
+				margin: 100px;
+				padding: 20px;
+				padding-top: 50px;
+				padding-bottom: 54px;			
 			}
 			.menubar-media{
 				position:relative;
+				font-family: sans-serif;
 				left:20%;
 				top: 0%;
 				text-align: center;
@@ -168,11 +211,34 @@
 				background-color: white;
 				padding: 1%;
 				padding-bottom: 3%;
+				background-color: papayawhip;
+		}
+		#home{
+			margin: 0%;
+
 		}
 		.menubar-media a{
 				text-decoration: none;
+				color: black;
 				display: block;
+				text-align: left;
 				margin-bottom: 3%;
 			}
+		.btmbox{
+			display: none;
+		}
+		.btmbox2{
+			text-align: center;
+			margin-top:7% ;
+			color: #002546;
+			background-color: peachpuff;
+			margin-left: 100px;
+			margin-right: 100px;
+			padding-top: 40px;
+			padding-bottom: 44px;
+		}
+		.whole i{
+			color: black;
+		}
 
 		}
